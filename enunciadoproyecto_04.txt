@@ -1,0 +1,36 @@
+Cree un nuevo repositorio público en GitHub con el archivo .gitignore que hace uso de
+plantilla de unidad
+❖ Cree un nuevo proyecto de Unity (asegúrese de usar la versión 2022 LTS y elija el proyecto 2D URP
+plantilla) y guárdelo para que el proyecto de Unity sea el repositorio creado en el paso anterior
+❖ Importe los activos necesarios para completar esta tarea. Los encontrarás adjuntos a la tarea.
+
+๏ (1 pt) Debes declarar el evento OnEnterKeyPressed (puedes darle otro nombre al evento
+si desea hacerlo) en el script EventsGameManager e invocarlo cuando presione el botón
+Tecla Retorno/Evento
+➡ Para poder declarar el evento necesitarás un delegado. Puedes declarar el tuyo
+delegado (tenga cuidado con la estructura de las funciones que suscribirá al evento)
+o puedes usar el delegado EventHandler como hicimos en el proyecto Snake. Otra vez tu
+deberá tener en cuenta la estructura de las funciones a las que se suscribirá
+el evento
+➡ Puede declarar un evento estático, por lo que no necesita crear EventsGameManager
+guión a singleton
+
+You will have to create two events
+➡ Watch these videos: https://learn.unity.com/tutorial/eventos-w and https://www.youtube.com/
+watch?v=OuZrhykVytg
+
+(1 pt) Debes declarar el evento OnEscapeKeyPressed (puedes darle otro nombre al
+evento si desea hacerlo) en el script EventsGameManager e invocarlo cuando presiona el botón
+Tecla de escape
+
+(4pt) Suscríbete al evento OnEnterKeyPressed las funciones correspondientes para que
+๏ El enemigo se detiene
+๏ El jugador cambia su color a verde.
+๏ El texto muestra la distancia del jugador al enemigo en ese momento.
+๏ El sistema de partículas comienza a reproducirse.
+
+(4pt) Suscríbete al evento OnEscapeKeyPressed las funciones correspondientes para que
+๏ El enemigo se mueve de nuevo.
+๏ El jugador cambia su color a su color original.
+๏ El texto muestra el mensaje predeterminado.
+๏ El sistema de partículas deja de funcionar.
