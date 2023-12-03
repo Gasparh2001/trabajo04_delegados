@@ -4,7 +4,11 @@ plantilla de unidad
 plantilla) y guárdelo para que el proyecto de Unity sea el repositorio creado en el paso anterior
 ❖ Importe los activos necesarios para completar esta tarea. Los encontrarás adjuntos a la tarea.
 
-๏ (1 pt) Debes declarar el evento OnEnterKeyPressed (puedes darle otro nombre al evento
+You will have to create two events
+➡ Watch these videos: https://learn.unity.com/tutorial/eventos-w and https://www.youtube.com/
+watch?v=OuZrhykVytg
+
+(1 pt) Debes declarar el evento OnEnterKeyPressed (puedes darle otro nombre al evento
 si desea hacerlo) en el script EventsGameManager e invocarlo cuando presione el botón
 Tecla Retorno/Evento
 ➡ Para poder declarar el evento necesitarás un delegado. Puedes declarar el tuyo
@@ -14,10 +18,6 @@ deberá tener en cuenta la estructura de las funciones a las que se suscribirá
 el evento
 ➡ Puede declarar un evento estático, por lo que no necesita crear EventsGameManager
 guión a singleton
-
-You will have to create two events
-➡ Watch these videos: https://learn.unity.com/tutorial/eventos-w and https://www.youtube.com/
-watch?v=OuZrhykVytg
 
 (1 pt) Debes declarar el evento OnEscapeKeyPressed (puedes darle otro nombre al
 evento si desea hacerlo) en el script EventsGameManager e invocarlo cuando presiona el botón

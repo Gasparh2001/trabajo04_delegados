@@ -59,11 +59,11 @@ public class EventsEnemy : MonoBehaviour
 
     private void StopMovement()
     {
-        canMove = false;
+        EventsGameManager.OnEnterKeyPressed += (canMove = false);
     }
     
     private void RestartMovement()
     {
-        canMove = true;
+        EventsGameManager.OnEscapeKeyPressed += (canMove = true);
     }
 }

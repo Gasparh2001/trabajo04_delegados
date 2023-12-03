@@ -39,11 +39,11 @@ public class EventsPlayerController : MonoBehaviour
 
     private void ChangeColorToGreen()
     {
-        spriteRenderer.color = myGreen;
+        EventsGameManager.OnEnterKeyPressed += (spriteRenderer.color = myGreen);
     }
     
     private void ChangeColorToOriginal()
     {
-        spriteRenderer.color = originalColor;
+        EventsGameManager.OnEscapeKeyPressed += (spriteRenderer.color = originalColor);
     }
 }
